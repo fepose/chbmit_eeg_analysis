@@ -1,0 +1,144 @@
+# ==========================================
+# DATOS
+# ==========================================
+
+# Datos descargados y generados por el pipeline
+data/raw/
+data/processed/
+data/csv/
+
+# Archivos de datos
+*.edf
+*.csv
+*.mat
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+
+# ==========================================
+# RESULTADOS
+# ==========================================
+
+# Resultados generados por el pipeline
+results/
+
+# Directorios alternativos de salida
+resultados/
+output/
+outputs/
+
+
+# ==========================================
+# FIGURAS
+# ==========================================
+
+# Figuras generadas fuera de results/
+figures/
+plots/
+figuras/
+
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+
+# ==========================================
+# PYTHON
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos generados por instalación/empaquetado
+build/
+dist/
+*.egg-info/
+
+
+# ==========================================
+# JUPYTER
+# ==========================================
+
+.ipynb_checkpoints/
+
+# Los archivos .ipynb se mantienen
+
+
+# ==========================================
+# macOS
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+
+# ==========================================
+# IDE / EDITORES
+# ==========================================
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+*~
+
+
+# ==========================================
+# LOGS
+# ==========================================
+
+*.log
+logs/
+
+
+# ==========================================
+# ARCHIVOS TEMPORALES
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+
+
+# ==========================================
+# CREDENCIALES
+# ==========================================
+
+.env
+.env.*
+*.secret
+secrets/
+credentials/
+
+
+# ==========================================
+# ARCHIVOS COMPRIMIDOS
+# ==========================================
+
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
